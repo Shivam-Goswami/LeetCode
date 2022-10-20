@@ -10,5 +10,5 @@ class Day19 {
         list.sort((x, y) -> map.get(y) - map.get(x));
         List sub = list.subList(0, k);
         return sub;
-    }
+
 }
